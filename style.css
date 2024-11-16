@@ -1,0 +1,32 @@
+.container{
+    position: relative;
+}
+.img{
+    height: 400px;
+    width: 600px;
+    margin: 7% 30%;
+    object-fit: cover;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.next{
+    left:67%;
+    top: 45%;
+    height: 70px;
+    width: 70px;
+}
+.next:hover{
+    transform: scale(0.8)translateX(10px);
+}
+.prev{
+    left:28%;
+    top: 45%;
+}
+.prev:hover{
+    transform: scale(0.8)translateX(-10px);
+}
