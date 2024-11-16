@@ -7,12 +7,19 @@
     <title>Slideshow</title>
 </head>
 <body>
+    <h1 class="textcenter">Slideshow</h1>
     <div class="container">
-        <img src="./images/img-1.jpg" alt="" class="img">
-        <img src="./images/next.png" alt="" class=" icon next">
-        <img src="./images/back.png" alt="" class=" icon prev">
+        <img src="./images/img-1.jpg" alt="" class="img" id="img-1">
+        <img src="./images/next.png" alt="" class=" icon next" onclick="next()">
+        <img src="./images/back.png" alt="" class=" icon prev" onclick="prev()">
     </div>
 
-    <script ></script>
+    <script>
+        const images=["./images/img-1.jpg",'./images/img-2.jpg','./images/img-3.jpg',"./images/ig-4.jpg","./images/img-5.jpg"];
+        let index= 0;
+        const Slide=document.getElementById('img-1');
+
+       
+    </script>
 </body>
 </html>

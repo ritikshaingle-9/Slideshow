@@ -1,10 +1,13 @@
+.textcenter{
+    text-align: center;
+}
 .container{
     position: relative;
 }
 .img{
     height: 400px;
     width: 600px;
-    margin: 7% 30%;
+    margin: 4% 30%;
     object-fit: cover;
 }
 .icon{
@@ -12,7 +15,7 @@
     width: 60px;
     position: absolute;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .next{
     left:67%;
